@@ -22,8 +22,26 @@
         height: 100vh;
         background-image: linear-gradient(135deg,#777 ,#ccc);
       }
+      .projekti{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 1%;
+        margin-bottom: 1%;
+      }
       #projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         background-color: black;
+        height: 100vh;
+
+      }
+      #profiles{
+        height: 100vh;
+        background-color: white;
       }
       .Sections{
         display: flex;
@@ -38,9 +56,39 @@
         font-size: 32px;
         margin-bottom: 15px;
       }
+      h2{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 30px;
+      }
+      h3{
+        color: #fff;
+        font-size: 32px;
+        font-family: Montserrat;
+        margin-top:0;
+      }
       p{
         color:#000;
         font-weight:600;
+      }
+      .project-tile:hover{
+        box-shadow: 3px 3px 2px #AAA;
+      }
+      a, a:visited, a:hover, a:active {
+        color: inherit;
+      }
+      .project-tile{
+        overflow: hidden;
+        font-family: Montserrat;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        height: 200px;
+        width: 250px;
+      }
+      img{
+        height: 100%;
+        width: 100%;
       }
       nav{
         display: flex;
@@ -57,11 +105,21 @@
         box-shadow: 1px 1px 3px #555;
         color: black;
       }
-      @media (min-width:200px) {
-
+      p{
+        color:white;
+      }
+      @media (max-width:600px) {
+        .projekti{
+          flex-direction: column;
+        }
+        #projekti{
+          height: 600vh;
+        }
       }
     </style>
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
     <header id="header">
       <nav id="navbar">
         <div class="Ime">
@@ -83,11 +141,25 @@
       </section>
 
 
+
       <section id="projects">
-            <div class="project-tile">
-              <a href="#">asdfhaslkjdjfh</a>
-              <a href="https://codepen.io/Gumbek/pen/BapXqwj" target="_blank"></a>
-            </div>
+        <h3>My projects</h3>
+        <div class="projekti">
+          <div class="project-tile">
+            <a href="https://codepen.io/Gumbek/pen/BapXqwj" target="_blank"> codepen <img id = "JS-doc" src="https://github.com/VidUrh/VidUrh.github.io/raw/main/JavaScriptDocumentation.PNG" alt="JavaScriptDocumentation">  </a>
+            <p>JS documentation<br>Project done while doing freeCodeCamp certification</p>
+          </div>
+          <div class="project-tile">
+            <a href="https://codepen.io/Gumbek/pen/GRrVKzq" target="_blank"> codepen <img src="https://github.com/VidUrh/VidUrh.github.io/raw/main/Survey.PNG" alt="JavaScriptDocumentation"></a>
+          </div>
+          <div class="project-tile">
+            <a href="https://codepen.io/Gumbek/pen/PoWXRqM" target="_blank"> codepen <img src="https://github.com/VidUrh/VidUrh.github.io/raw/main/TributePage.png" alt="JavaScriptDocumentation"></a>
+          </div>
+
+
+
+        </div>
+
       </section>
 
       <section id="profiles">
