@@ -1,0 +1,148 @@
+:root{
+  --header:#eee;
+
+
+
+}
+html{
+  font-family: Montserrat;
+  scroll-behavior: smooth;
+}
+
+*{
+  margin:0 0 0 0;
+
+}
+
+.projekti{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+}
+section{
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  align-items: center;
+  box-shadow: -2px 0 2px;
+  box-shadow: 2px 0 5px;
+  justify-content: center;
+  height: 100vh;
+}
+#welcome-section{
+  padding-top: 0px;
+  background-image: linear-gradient(135deg,#777 ,#ccc);
+}
+#projects{
+  background-image: linear-gradient(45deg,#333,#777);
+
+}
+#profiles{
+  background-image: linear-gradient(-35deg,#888,#ddd);
+  justify-content: space-around;
+}
+.article{
+  font-weight: bolder;
+}
+.profile-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2em;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.profile-container{
+  text-align: justify;
+  line-height: 2.5em;
+  width: 75%;
+}
+
+
+
+.Sections{
+  display: flex;
+  flex-direction;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+h1{
+  color: #000;
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+h2{
+  color: var(--header);
+  font-size: 30px;
+}
+h3{
+  color: #fff;
+  font-size: 32px;
+  font-weight: bolder;
+  margin-top:0;
+}
+p.header{
+
+  color:#111;
+  font-weight:600;
+}
+a, a:visited, a:hover, a:active {
+
+  text-decoration: none;
+  color: inherit;
+}
+.image{
+  height: 250px;
+  width: 300px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.project-tile:hover{
+  transform: translate(-2px,-2px);
+  box-shadow: 3px 3px 2px #AAA;
+}
+
+.project-tile{
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  font-family: Montserrat;
+  font-weight: bolder;
+  top:0;
+  height:50px;
+  width: 100%;
+  background-color: #222;
+  box-shadow: 1px 1px 3px #555;
+  color: var(--header);
+  z-index: 1;
+}
+
+@media (max-width:600px) {
+  .projekti{
+    flex-direction: column;
+  }
+  #projekti{
+    height: 600vh;
+  }
+}
