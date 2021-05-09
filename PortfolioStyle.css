@@ -179,6 +179,7 @@ a.MoreProjects{
 @media (max-width:80em) {
   #projects{
       height: auto;
+      background-color: blue;
   }
   .projekti{
     width: auto;
