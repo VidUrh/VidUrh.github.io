@@ -92,14 +92,13 @@ h2{
   color: var(--header);
   font-size: 30px;
 }
-h3{
+.ime{
   color: #fff;
   font-size: 1.8em;
   font-weight: bolder;
   margin-top:0;
 }
 p.header{
-
   text-align: center;
   color:#111;
   font-weight:600;
@@ -154,7 +153,7 @@ nav{
   font-family: Montserrat;
   font-weight: bolder;
   top:0;
-  height:3em;
+  height:10vh;
   width: 100%;
   background-color: #222;
   box-shadow: 1px 1px 3px #555;
@@ -191,7 +190,7 @@ a.MoreProjects{
   }
   @media (min-width:481px) {
     h3{
-      font-size: 8vmin;
+      font-size: 4em;
     }
   }
 }
