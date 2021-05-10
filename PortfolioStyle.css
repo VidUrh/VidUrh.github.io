@@ -84,7 +84,7 @@ h1{
 }
 h2{
   color: var(--header);
-  font-size: 1.8em;
+  font-size: 3em;
 }
 h3{
   font-size: 3em;
@@ -174,7 +174,7 @@ a.MoreProjects{
   font-size: 200%;
   font-weight: bold;
   width: auto;
-  
+
 }
 
 
