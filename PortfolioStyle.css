@@ -167,6 +167,10 @@ nav{
   width: 40%;
   font-size: 3vh;
 }
+.naslov{
+  margin-left: 10px;
+  margin-right: 10px;
+}
 a.MoreProjects{
   margin-top: 10vmin;
   margin-bottom: 10vmin;
