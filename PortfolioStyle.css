@@ -1,8 +1,6 @@
 :root{
   --header:#eee;
 
-
-
 }
 html{
   font-family: Montserrat;
@@ -14,6 +12,12 @@ html{
   margin:0;
   padding: 0;
 }
+
+button{
+  background-color: inherit;
+  border: none;
+}
+
 
 
 section{
@@ -178,13 +182,14 @@ a.MoreProjects{
   width: auto;
 
 }
-
+.zavrti{
+  transform: rotate(180deg  );
+}
 .puscica{
-  width: 1000px;
-  height: 1000px;
+  width: 100px;
+  height: auto;
   color: rgba(0,0,0,0.46);+
 }
-
 
 @media (max-width:87.5em) {
   #profiles{

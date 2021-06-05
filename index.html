@@ -43,9 +43,9 @@
 
         <div class="projekti">
 
-            <a><img class = "puscica" src="https://github.com/VidUrh/VidUrh.github.io/raw/main/siva-puscica.png" alt="levo"></a>
+            <button onclick="premakni(-1)"><img class = "puscica zavrti" src="https://github.com/VidUrh/VidUrh.github.io/raw/main/siva-puscica.png" alt="levo"></button>
 
-            <div class="project-tile">
+            <div id="proj1" class="project-tile">
 
               <a href="https://vidurh.github.io/SnakeGame/" target="_blank">
                 Snake Game
@@ -56,7 +56,7 @@
               </a>
             </div>
 
-            <div class="project-tile">
+            <div id="proj2" class="project-tile">
 
               <a href="https://vidurh.github.io/PacMan/" target="_blank">
                 Pac-Man
@@ -67,7 +67,7 @@
               </a>
             </div>
 
-            <div class="project-tile">
+            <div id="proj3" class="project-tile">
 
               <a href="https://codepen.io/Gumbek/pen/GRrVKzq" target="_blank">
                 Survey form
@@ -78,15 +78,33 @@
               </a>
             </div>
 
+            <div id="proj4" class="project-tile">
 
-            <a><img class="puscica" src="https://github.com/VidUrh/VidUrh.github.io/raw/main/siva-puscica.png" alt="desno"></a>
+              <a href="https://codepen.io/Gumbek/pen/BapXqwj" target="_blank">
+                JavaScript Documentation
+                <div class="image">
+                  <img id = "JS-doc" src="https://github.com/VidUrh/VidUrh.github.io/raw/main/JavaScriptDocumentation.PNG" alt="JavaScript Documentation">
+                </div>
+                A project I did for <br> freeCodeCamp certificate.
+              </a>
+            </div>
+
+            <div id="proj5" class="project-tile">
+
+              <a href="https://codepen.io/Gumbek/pen/PoWXRqM" target="_blank">
+                Tribute page
+                <div class="image">
+                  <img id = "tribute" src="https://github.com/VidUrh/VidUrh.github.io/raw/main/TributePage.png" alt="Tribute Page">
+                </div>
+                A project I did for <br> freeCodeCamp certificate.
+              </a>
+            </div>
+
+            <button onclick="premakni(1)"><img class="puscica" src="https://github.com/VidUrh/VidUrh.github.io/raw/main/siva-puscica.png" alt="desno"></button>
 
         </div>
 
-
-
-        <a class="MoreProjects" href="projekti.html">More Projects</a>
-      </section>
+    </section>
 
       <section id="profiles">
         <div class="profile-container">
@@ -111,7 +129,7 @@
         </div>
 
       </section>
-
+      <script type="text/javascript" src="index.js"></script>
 
     </div>
   </body>
