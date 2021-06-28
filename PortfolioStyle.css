@@ -41,6 +41,9 @@ section{
 #projects{
   background-image: linear-gradient(45deg,#333,#777);
 }
+#certificates{
+  background-image: linear-gradient(45deg,#333,#777);
+}
 #profiles{
   background-image: linear-gradient(-35deg,#888,#ddd);
   justify-content: space-around;
